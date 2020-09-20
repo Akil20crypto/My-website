@@ -1,1 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+ font-family: 'Work Sans' sans-serif;
+ font-weight: 400;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+.button_1 {
+
+ height: 50px;
+ background: #e8491d;
+ border: 0;
+ padding-right: px;
+ padding-left: px;
+ color: #ffffff;
+ width: 100%;
+ background: #00ace6;
+ margin-top: 8px;
+
+ font-size: 15px;
+
+}
+
+.dark{
+  padding:15px;
+  background:
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#2b2d2f;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#1167b1 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#1167b1;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url(iris-uijttewaal-j95OucLg850-unsplash.jpg) no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#newsletter input[type="first name"]{
+ padding: 4px;
+  height:50px;
+  width: 100%;
+  display: block;
+  
+  font-size: 15px;
+  margin-top: 5px;
+ 
+}
+
+#newsletter input[type="last name"]{
+ padding: 4px;
+  height:50px;
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+font-size: 15px;
+}
+
+#newsletter input[type="email"]{
+ padding: 4px;
+height:50px;
+width: 100%;
+display: block;
+font-size: 15px;
+margin-top: 5px;
+}
+
+
+/* Boxes */
+#boxes {
+ margin-top: 20px;
+}
+
+#boxes .box {
+ 
+ 
+ text-align: center;
+ box-sizing: border-box;
+
+ 
+ 
+}
+@media (min-width: 600px){
+ 
+
+#boxes .box {
+ display: inline-block;
+ text-align: center;
+ box-sizing: border-box;
+ width: 30%;
+ margin-left: 15px;
+
+}
+
+#newsletter{
+ width: 40%;
+ margin: auto;
+}
+
+#newsletter input[type="first name"] {
+ padding: 4px;
+ height: 50px;
+ width: 100%;
+ font-size: 15px;
+ margin-top: 5px;
+ display: block;
+}
+
+#newsletter input[type="last name"] {
+ padding: 4px;
+ height: 50px;
+ width: 100%;
+ margin-top: 5px;
+ font-size: 15px;
+ display:  block;
+}
+
+#newsletter input[type="email"] {
+ padding: 4px;
+ height: 50px;
+ width: 100%;
+ float: left;
+ font-size: 15px;
+ margin-top: 5px;
+ display: block;
+}
+
+}
+
+#boxes .box img {
+ display: block;
+ width: 210px;
+ height: 210px;
+ margin: auto;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  text-align: center;
+  margin-bottom:5px;
+  margin: auto;
+  display: block;
+  
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#2b2d2f;
+  text-align: center;
+  height: 20vh;
+}
+.icon{
+ display: inline-block;
+ margin: 10px;
+ font-size: 45px;
+}
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  n
